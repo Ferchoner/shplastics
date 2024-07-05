@@ -1,0 +1,91 @@
+$font-path: "/assets/fonts"
+
+@font-face
+  font-family: 'metropolisblack'
+  src: url("#{$font-path}/metropolis-black-webfont.woff") format('woff')
+  src: url("#{$font-path}/metropolis-black-webfont.woff2") format('woff2')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'metropolisbold'
+  src: url("#{$font-path}/metropolis-bold-webfont.woff") format('woff')
+  src: url("#{$font-path}/metropolis-bold-webfont.woff2") format('woff2')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'metropolisextra_bold'
+  src: url("#{$font-path}/metropolis-extrabold-webfont.woff") format('woff')
+  src: url("#{$font-path}/metropolis-extrabold-webfont.woff2") format('woff2')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'metropolis'
+  src: url("#{$font-path}/metropolis-regular-webfont.woff") format('woff')
+  src: url("#{$font-path}/metropolis-regular-webfont.woff2") format('woff2')
+  font-weight: normal
+  font-style: normal
+
+html, body
+  width: 100%
+  min-height: 100vh
+  margin: 0
+  padding: 0
+  font-family: metropolis, sans-serif
+  overflow: hidden auto
+
+.text-metropolis
+  font-family: metropolis, sans-serif !important
+
+.text-metropolis-black
+  font-family: metropolisblack, sans-serif !important
+
+.text-metropolis-bold
+  font-family: metropolisbold, sans-serif !important
+
+.text-metropolis-extra-bold
+  font-family: metropolisextra_bold, sans-serif !important
+
+.main-color1
+  color: #200E35 !important
+
+.main-color2
+  color: #522580 !important
+
+.main-color3
+  color: #6E42A8 !important
+
+.back-color
+  color: #DDDDDD !important
+
+.bg-main-color1
+  background-color: #200E35 !important
+
+.bg-main-color2
+  background-color: #522580 !important
+
+.bg-main-color3
+  background-color: #6E42A8 !important
+
+.bg-back-color
+  background-color: #EDEDED !important
+
+/* width */
+::-webkit-scrollbar
+  width: 8px
+
+/* Track */
+::-webkit-scrollbar-track
+  background: #f1f1f1
+
+/* Handle */
+::-webkit-scrollbar-thumb
+  background: #222
+  transition: background 800ms
+  border-radius: 3px
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover
+  background: #444
